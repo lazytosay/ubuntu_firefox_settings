@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf /home/bill/.vnc/*.log
+rm -rf ~/.vnc/*.log
 killall -9 firefox
 sleep 1
 export DISPLAY=:1
